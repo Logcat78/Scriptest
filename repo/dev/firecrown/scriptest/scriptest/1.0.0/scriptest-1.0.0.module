@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.firecrown.scriptest",
+    "module": "scriptest",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scriptest-1.0.0.aar",
+          "url": "scriptest-1.0.0.aar",
+          "size": 75146,
+          "sha512": "b197f4ea5206b861f170fd06cd8e9c58af3fbf688b9fa2768f0cbbe7155984175b33d6273e21f79f135d02dc03d6f882724c7ece3df438f3c1c7b2b45f7a0274",
+          "sha256": "4c173d7dd778b97fe6cd49a7d9bad2e00224f8857324d461a0f534baa3a28d51",
+          "sha1": "70da6430831b3bba424687e4b817db2a81fa335e",
+          "md5": "941aa5b3ce94347f4db4954bf6a2176d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scriptest-1.0.0.aar",
+          "url": "scriptest-1.0.0.aar",
+          "size": 75146,
+          "sha512": "b197f4ea5206b861f170fd06cd8e9c58af3fbf688b9fa2768f0cbbe7155984175b33d6273e21f79f135d02dc03d6f882724c7ece3df438f3c1c7b2b45f7a0274",
+          "sha256": "4c173d7dd778b97fe6cd49a7d9bad2e00224f8857324d461a0f534baa3a28d51",
+          "sha1": "70da6430831b3bba424687e4b817db2a81fa335e",
+          "md5": "941aa5b3ce94347f4db4954bf6a2176d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "scriptest-1.0.0-sources.jar",
+          "url": "scriptest-1.0.0-sources.jar",
+          "size": 32610,
+          "sha512": "2d5f9dda3db9025f28f7f0576450f5550c018dd17aabe5040e9ed28ef2affff03a80e2a4c3e8ade0ddac2c6c514cc1c30fc44306e843cdd2b01268bef04f6bad",
+          "sha256": "c215093d62ee9db736b38dd5826fd7070fbf2c9a52f287988a47b503822ff703",
+          "sha1": "67e612a00659ad67a2a67912c51b1061861013c5",
+          "md5": "7e1a52f1733c2530f088637be0785361"
+        }
+      ]
+    }
+  ]
+}
